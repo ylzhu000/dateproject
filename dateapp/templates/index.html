@@ -12,6 +12,10 @@
   <input type="submit" value="Submit">
 
 </form>
-
+  <hr>
+    {% if Input_weekday %}
+    <h2>You Pick:</h2>
+    <div>{{Input_weekday}} on {{InputMonth}} / {{InputDay}} / {{InputYear}}</div>
+    {% endif %}
 
 {% endblock %}
