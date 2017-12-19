@@ -35,3 +35,4 @@ venv.bak/
 !.elasticbeanstalk/*.global.yml
 
 .DS_Store
+*.pyc
